@@ -1,0 +1,5 @@
+{
+ "best": "official",
+ "ckpt": "/home/anduras/Downloads/aerial_stitching/revisi_d/thirdparty/weights/matchformer/outdoor-large-LA.ckpt",
+ "rule": "bobot resmi (sel kontrol D4)"
+}

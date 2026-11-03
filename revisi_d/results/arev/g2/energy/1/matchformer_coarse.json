@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/matchformer_coarse.engine",
+ "n": 1280,
+ "seconds": 30.11593270301819,
+ "latency_ms": 23.52807242423296,
+ "energy_j_per_inf": 5.756090625000001,
+ "energy_dyn_j_per_inf": 5.213985374444816,
+ "power_mean_w": 244.64777739596977,
+ "power_max_w": 246.925,
+ "idle_w": 23.040784675451718,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:07:10"
+}

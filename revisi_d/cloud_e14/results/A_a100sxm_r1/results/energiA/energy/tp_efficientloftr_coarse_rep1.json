@@ -1,0 +1,22 @@
+{
+ "tag": "tp_efficientloftr_coarse",
+ "rep": "1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 5970,
+ "seconds": 30.051846560789272,
+ "latency_ms": 5.033810144185808,
+ "energy_j_per_inf": 1.553976716917923,
+ "power_from_energy_w": 308.70785198619575,
+ "energy_dyn_j_per_inf": 1.1940696965026376,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 308.0853712374582,
+ "power_max_w": 318.321,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 59,
+ "mem_used_max_mb": 1522.0625,
+ "n_samples": 598,
+ "engine": "engines/engA/tp_efficientloftr_coarse.engine",
+ "device_memory_mb": 171.97265625,
+ "engine_file_mb": 32.02736282348633,
+ "kind": "engine"
+}

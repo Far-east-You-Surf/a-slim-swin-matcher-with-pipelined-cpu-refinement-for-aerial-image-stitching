@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_aspanformer_coarse",
+ "engine": "engines/engA/tp_aspanformer_coarse.engine",
+ "latency_ms": 36.18933439254761,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 35.977512168884275,
+ "per_iter_median_ms": 36.07878494262695,
+ "per_iter_p95_ms": 37.2187255859375,
+ "per_iter_sd_ms": 0.7412588865189363,
+ "device_memory_size_v2_bytes": 1057519616,
+ "engine_file_bytes": 167553972,
+ "t": "2026-11-02T02:19:13+0000"
+}

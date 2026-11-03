@@ -1,0 +1,22 @@
+{
+ "tag": "sweep_L4",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 1250,
+ "seconds": 30.098666018340737,
+ "latency_ms": 24.07893281467259,
+ "energy_j_per_inf": 1.728896,
+ "power_from_energy_w": 71.80118875311993,
+ "energy_dyn_j_per_inf": 1.2395832066197636,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.73278595317726,
+ "power_max_w": 73.058,
+ "sm_clock_mean": 1213.4448160535117,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 992.875,
+ "n_samples": 598,
+ "engine": "engines/engA/sweep_L4.engine",
+ "device_memory_mb": 207.5234375,
+ "engine_file_mb": 62.31754684448242,
+ "kind": "engine"
+}

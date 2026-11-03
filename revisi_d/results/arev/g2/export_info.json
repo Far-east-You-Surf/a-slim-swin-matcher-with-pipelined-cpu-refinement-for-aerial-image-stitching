@@ -1,0 +1,134 @@
+{
+ "d8": {
+  "blocks": 8,
+  "layers": 8,
+  "stride": 16,
+  "res": "768x1024",
+  "run": "d8_s2",
+  "grid": [
+   48,
+   64
+  ],
+  "weights": "acak",
+  "params": 30084568,
+  "gflops": 689.400184832,
+  "build_s": 93.1,
+  "build": {
+   "ok": true,
+   "build_s": 91.0,
+   "trt": "11.1.0.106",
+   "engine_mb": 70.045,
+   "n_log": 0
+  }
+ },
+ "d18": {
+  "blocks": 18,
+  "layers": 8,
+  "stride": 16,
+  "res": "768x1024",
+  "run": "d18_s2",
+  "grid": [
+   48,
+   64
+  ],
+  "weights": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_d18_s2/ep008_val4.1460.pth",
+  "params": 61635448,
+  "gflops": 1097.846996992,
+  "build_s": 47.6,
+  "build": {
+   "ok": true,
+   "build_s": 46.0,
+   "trt": "11.1.0.106",
+   "engine_mb": 134.693,
+   "n_log": 0
+  }
+ },
+ "L0": {
+  "blocks": 8,
+  "layers": 0,
+  "stride": 16,
+  "res": "768x1024",
+  "run": "L0_s1",
+  "grid": [
+   48,
+   64
+  ],
+  "weights": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s1/ep011_val4.8934.pth",
+  "params": 27967960,
+  "gflops": 509.0115584,
+  "build_s": 21.8,
+  "build": {
+   "ok": true,
+   "build_s": 20.9,
+   "trt": "11.1.0.106",
+   "engine_mb": 61.421,
+   "n_log": 0
+  }
+ },
+ "L4": {
+  "blocks": 8,
+  "layers": 4,
+  "stride": 16,
+  "res": "768x1024",
+  "run": "L4_s1",
+  "grid": [
+   48,
+   64
+  ],
+  "weights": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L4_s1/ep008_val4.5486.pth",
+  "params": 29026264,
+  "gflops": 599.205871616,
+  "build_s": 28.4,
+  "build": {
+   "ok": true,
+   "build_s": 27.6,
+   "trt": "11.1.0.106",
+   "engine_mb": 65.838,
+   "n_log": 0
+  }
+ },
+ "s32": {
+  "blocks": 8,
+  "layers": 8,
+  "stride": 32,
+  "res": "768x1024",
+  "run": "s32_s1",
+  "grid": [
+   24,
+   32
+  ],
+  "weights": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_s32_s1/ep008_val3.2823.pth",
+  "params": 30084568,
+  "gflops": 522.09778688,
+  "build_s": 32.9,
+  "build": {
+   "ok": true,
+   "build_s": 32.0,
+   "trt": "11.1.0.106",
+   "engine_mb": 70.001,
+   "n_log": 0
+  }
+ },
+ "r480": {
+  "blocks": 8,
+  "layers": 8,
+  "stride": 16,
+  "res": "480x640",
+  "run": "r480_s1",
+  "grid": [
+   30,
+   40
+  ],
+  "weights": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_r480_s1/ep001_val3.7007.pth",
+  "params": 30084568,
+  "gflops": 237.239119872,
+  "build_s": 35.3,
+  "build": {
+   "ok": true,
+   "build_s": 34.4,
+   "trt": "11.1.0.106",
+   "engine_mb": 69.211,
+   "n_log": 0
+  }
+ }
+}

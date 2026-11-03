@@ -1,0 +1,19 @@
+{
+ "seq": "sheffield",
+ "cfg": "loftr_e2e",
+ "n_pairs": 60,
+ "seconds": 1.9099596540036146,
+ "pairs_per_s": 31.414276146739198,
+ "steady_pairs_per_s": 31.668303888747204,
+ "first_pair_s": 0.04082676699908916,
+ "drain_s": 1.2759999663103372e-05,
+ "registered": 60,
+ "gpu_j_per_pair": 3.1586833333333333,
+ "cpu_j_per_pair": 1.5176260333333333,
+ "idle_gpu_w": 17.039073274730523,
+ "idle_cpu_w": 29.80524449502178,
+ "nvml_bus": "00000000:02:00.0",
+ "rapl": true,
+ "system_j_per_pair_gross": 4.676309366666667,
+ "system_j_per_pair_net": 3.185130084007475
+}

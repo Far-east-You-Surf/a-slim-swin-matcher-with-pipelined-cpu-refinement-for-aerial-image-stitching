@@ -1,0 +1,10 @@
+{
+ "n_pairs": 100,
+ "all_finite": true,
+ "coarse_cells_same_med": 0.9952380952380953,
+ "coarse_cells_same_min": 0.9636904761904762,
+ "pts1_within_1px_med": 1.0,
+ "pts1_within_1px_min": 0.9993364214897156,
+ "n_matches_engine_med": 1587.0,
+ "n_matches_torch_med": 1587.0
+}

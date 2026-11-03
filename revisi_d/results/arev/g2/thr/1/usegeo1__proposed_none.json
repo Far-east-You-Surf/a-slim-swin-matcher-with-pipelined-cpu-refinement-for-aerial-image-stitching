@@ -1,0 +1,19 @@
+{
+ "seq": "usegeo1",
+ "cfg": "proposed_none",
+ "n_pairs": 60,
+ "seconds": 0.8566391280000971,
+ "pairs_per_s": 70.04116207028217,
+ "steady_pairs_per_s": 70.40704196971579,
+ "first_pair_s": 0.01574265099952754,
+ "drain_s": 1.2981001418665983e-05,
+ "registered": null,
+ "gpu_j_per_pair": 2.7272499999999997,
+ "cpu_j_per_pair": 0.6992095500000001,
+ "idle_gpu_w": 21.725329256376604,
+ "idle_cpu_w": 30.774180344541936,
+ "nvml_bus": "00000000:02:00.0",
+ "rapl": true,
+ "system_j_per_pair_gross": 3.4264595499999997,
+ "system_j_per_pair_net": 2.67690731458394
+}

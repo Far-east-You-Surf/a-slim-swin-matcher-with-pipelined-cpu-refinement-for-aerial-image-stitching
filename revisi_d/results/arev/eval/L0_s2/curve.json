@@ -1,0 +1,254 @@
+{
+ "ep001": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep001_val5.0970.pth",
+  "inliers": 531.0666666666667,
+  "per_pair": [
+   27,
+   307,
+   574,
+   672,
+   663,
+   279,
+   33,
+   499,
+   620,
+   1150,
+   862,
+   742,
+   389,
+   1137,
+   12
+  ]
+ },
+ "ep002": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep002_val5.4878.pth",
+  "inliers": 550.1333333333333,
+  "per_pair": [
+   30,
+   312,
+   593,
+   690,
+   659,
+   382,
+   73,
+   512,
+   636,
+   1160,
+   882,
+   743,
+   387,
+   1185,
+   8
+  ]
+ },
+ "ep003": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep003_val4.7875.pth",
+  "inliers": 559.1333333333333,
+  "per_pair": [
+   33,
+   315,
+   600,
+   698,
+   668,
+   400,
+   38,
+   519,
+   641,
+   1188,
+   920,
+   768,
+   382,
+   1209,
+   8
+  ]
+ },
+ "ep004": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep004_val5.0507.pth",
+  "inliers": 563.4,
+  "per_pair": [
+   32,
+   307,
+   608,
+   694,
+   656,
+   393,
+   55,
+   540,
+   665,
+   1190,
+   938,
+   762,
+   378,
+   1222,
+   11
+  ]
+ },
+ "ep005": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep005_val5.0519.pth",
+  "inliers": 569.4,
+  "per_pair": [
+   34,
+   311,
+   620,
+   690,
+   668,
+   395,
+   62,
+   537,
+   670,
+   1191,
+   955,
+   777,
+   391,
+   1227,
+   13
+  ]
+ },
+ "ep006": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep006_val4.7013.pth",
+  "inliers": 572.0,
+  "per_pair": [
+   32,
+   315,
+   623,
+   693,
+   672,
+   393,
+   71,
+   545,
+   658,
+   1194,
+   956,
+   796,
+   385,
+   1237,
+   10
+  ]
+ },
+ "ep007": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep007_val4.6880.pth",
+  "inliers": 581.9333333333333,
+  "per_pair": [
+   34,
+   327,
+   636,
+   692,
+   673,
+   394,
+   111,
+   549,
+   673,
+   1218,
+   966,
+   801,
+   394,
+   1250,
+   11
+  ]
+ },
+ "ep008": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep008_val4.9054.pth",
+  "inliers": 579.9333333333333,
+  "per_pair": [
+   36,
+   323,
+   631,
+   697,
+   683,
+   397,
+   68,
+   553,
+   663,
+   1211,
+   968,
+   833,
+   394,
+   1232,
+   10
+  ]
+ },
+ "ep009": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep009_val4.6303.pth",
+  "inliers": 584.3333333333334,
+  "per_pair": [
+   39,
+   323,
+   642,
+   699,
+   691,
+   396,
+   129,
+   554,
+   665,
+   1204,
+   976,
+   813,
+   391,
+   1233,
+   10
+  ]
+ },
+ "ep010": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep010_val4.6051.pth",
+  "inliers": 578.2666666666667,
+  "per_pair": [
+   37,
+   325,
+   644,
+   704,
+   681,
+   387,
+   47,
+   555,
+   654,
+   1204,
+   970,
+   834,
+   386,
+   1236,
+   10
+  ]
+ },
+ "ep011": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep011_val4.6377.pth",
+  "inliers": 578.4,
+  "per_pair": [
+   37,
+   329,
+   650,
+   691,
+   677,
+   387,
+   54,
+   556,
+   656,
+   1207,
+   973,
+   823,
+   388,
+   1236,
+   12
+  ]
+ },
+ "ep012": {
+  "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep012_val4.7596.pth",
+  "inliers": 585.0,
+  "per_pair": [
+   37,
+   325,
+   654,
+   702,
+   705,
+   396,
+   61,
+   554,
+   664,
+   1208,
+   984,
+   847,
+   388,
+   1241,
+   9
+  ]
+ }
+}

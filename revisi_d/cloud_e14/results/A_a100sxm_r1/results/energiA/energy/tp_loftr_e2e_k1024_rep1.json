@@ -1,0 +1,22 @@
+{
+ "tag": "tp_loftr_e2e_k1024",
+ "rep": "1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 3240,
+ "seconds": 30.07936462201178,
+ "latency_ms": 9.283754512966599,
+ "energy_j_per_inf": 3.4595120370370367,
+ "power_from_energy_w": 372.6414816554169,
+ "energy_dyn_j_per_inf": 2.795742778896054,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 372.7687023411371,
+ "power_max_w": 388.739,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 64,
+ "mem_used_max_mb": 1608.0625,
+ "n_samples": 598,
+ "engine": "engines/engA/tp_loftr_e2e_k1024.engine",
+ "device_memory_mb": 302.93017578125,
+ "engine_file_mb": 29.794376373291016,
+ "kind": "engine"
+}

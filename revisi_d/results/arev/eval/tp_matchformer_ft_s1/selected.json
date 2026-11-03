@@ -1,0 +1,7 @@
+{
+ "best": "ep002",
+ "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_tp_matchformer_ft_s1/ep002.pth",
+ "best_inliers": 550.4666666666667,
+ "zero_shot_inliers": 432.6,
+ "rule": "rerata inlier RANSAC q15 tertinggi ep001-ep012"
+}

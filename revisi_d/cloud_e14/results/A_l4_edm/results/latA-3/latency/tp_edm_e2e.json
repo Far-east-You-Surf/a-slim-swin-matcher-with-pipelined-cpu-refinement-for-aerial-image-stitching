@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_edm_e2e",
+ "engine": "engines/engA/tp_edm_e2e.engine",
+ "latency_ms": 7.013247013092041,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 7.14498655796051,
+ "per_iter_median_ms": 7.151792049407959,
+ "per_iter_p95_ms": 7.353758502006531,
+ "per_iter_sd_ms": 0.14698265202723487,
+ "device_memory_size_v2_bytes": 269255168,
+ "engine_file_bytes": 25178572,
+ "t": "2026-11-02T14:16:03+0000"
+}

@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/topicfm_fast_coarse.engine",
+ "n": 6470,
+ "seconds": 30.02555799484253,
+ "latency_ms": 4.640735393329602,
+ "energy_j_per_inf": 1.1669811437403401,
+ "energy_dyn_j_per_inf": 1.0505619246467304,
+ "power_mean_w": 251.46470221459072,
+ "power_max_w": 253.777,
+ "idle_w": 25.086373004792666,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:08:32"
+}

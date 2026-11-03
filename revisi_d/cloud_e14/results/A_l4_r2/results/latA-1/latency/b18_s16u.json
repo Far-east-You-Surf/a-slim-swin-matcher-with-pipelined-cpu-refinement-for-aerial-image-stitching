@@ -1,0 +1,14 @@
+{
+ "cfg": "b18_s16u",
+ "engine": "engines/engA/b18_s16u.engine",
+ "latency_ms": 37.764060497283936,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 37.77837604522705,
+ "per_iter_median_ms": 37.58891296386719,
+ "per_iter_p95_ms": 38.53721103668213,
+ "per_iter_sd_ms": 0.5519587918593892,
+ "device_memory_size_v2_bytes": 217604096,
+ "engine_file_bytes": 136064572,
+ "t": "2026-11-02T02:13:50+0000"
+}

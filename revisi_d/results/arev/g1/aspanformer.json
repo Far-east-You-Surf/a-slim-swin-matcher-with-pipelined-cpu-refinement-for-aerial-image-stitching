@@ -1,0 +1,23 @@
+{
+ "matcher": "aspanformer",
+ "n_pairs": 1418,
+ "auc_engine": {
+  "auc@1": 85.91035565337128,
+  "auc@2": 92.84939503401992,
+  "auc@5": 97.01281866240909
+ },
+ "auc_torch": {
+  "auc@1": 85.80964348109981,
+  "auc@2": 92.7990389478842,
+  "auc@5": 96.99267622795482
+ },
+ "med_err_engine": 1.5015955713878275,
+ "med_err_torch": 1.525611695618356,
+ "frac_pairs_torch_over_K": 0.5035260930888575,
+ "n_torch_p50": 3094.5,
+ "n_torch_p90": 3517.0,
+ "n_torch_max": 3889,
+ "n_engine_p50": 3072.0,
+ "common_frac_med": 0.9996079105977745,
+ "pt1_within_1px_med": 1.0
+}

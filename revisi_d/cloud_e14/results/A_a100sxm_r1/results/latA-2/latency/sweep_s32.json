@@ -1,0 +1,14 @@
+{
+ "cfg": "sweep_s32",
+ "engine": "engines/engA/sweep_s32.engine",
+ "latency_ms": 7.759838104248047,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 7.770100498199463,
+ "per_iter_median_ms": 7.7666239738464355,
+ "per_iter_p95_ms": 7.796113467216491,
+ "per_iter_sd_ms": 0.03493617514028526,
+ "device_memory_size_v2_bytes": 217604096,
+ "engine_file_bytes": 69071972,
+ "t": "2026-11-02T02:48:58+0000"
+}

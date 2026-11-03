@@ -1,0 +1,22 @@
+{
+ "tag": "tp_aspanformer_coarse",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 830,
+ "seconds": 30.05310398200527,
+ "latency_ms": 36.20855901446418,
+ "energy_j_per_inf": 2.5900180722891566,
+ "power_from_energy_w": 71.53054810202543,
+ "energy_dyn_j_per_inf": 1.8542167271047685,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.81067056856187,
+ "power_max_w": 73.469,
+ "sm_clock_mean": 1368.2608695652175,
+ "temp_max_c": 70,
+ "mem_used_max_mb": 1882.875,
+ "n_samples": 598,
+ "engine": "engines/engA/tp_aspanformer_coarse.engine",
+ "device_memory_mb": 1008.529296875,
+ "engine_file_mb": 159.79191970825195,
+ "kind": "engine"
+}

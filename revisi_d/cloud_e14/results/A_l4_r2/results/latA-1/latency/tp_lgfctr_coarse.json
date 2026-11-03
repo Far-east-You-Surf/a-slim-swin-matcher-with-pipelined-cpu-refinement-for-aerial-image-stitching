@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_lgfctr_coarse",
+ "engine": "engines/engA/tp_lgfctr_coarse.engine",
+ "latency_ms": 37.39324331283569,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 37.08677074432373,
+ "per_iter_median_ms": 37.07945442199707,
+ "per_iter_p95_ms": 37.830795478820804,
+ "per_iter_sd_ms": 0.44504884006712797,
+ "device_memory_size_v2_bytes": 282292736,
+ "engine_file_bytes": 96228444,
+ "t": "2026-11-02T02:13:27+0000"
+}

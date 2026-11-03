@@ -1,0 +1,22 @@
+{
+ "tag": "tp_jamma_coarse",
+ "rep": "1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 2410,
+ "seconds": 30.033933355938643,
+ "latency_ms": 12.462213010762923,
+ "energy_j_per_inf": 2.939898755186722,
+ "power_from_energy_w": 235.90503168640228,
+ "energy_dyn_j_per_inf": 2.0488762843323407,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 235.30864489112227,
+ "power_max_w": 254.527,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 56,
+ "mem_used_max_mb": 1650.0625,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_jamma_coarse.engine",
+ "device_memory_mb": 296.935546875,
+ "engine_file_mb": 37.67307662963867,
+ "kind": "engine"
+}

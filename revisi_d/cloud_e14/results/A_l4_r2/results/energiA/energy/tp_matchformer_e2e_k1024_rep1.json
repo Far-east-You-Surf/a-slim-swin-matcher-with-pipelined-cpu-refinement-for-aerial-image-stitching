@@ -1,0 +1,22 @@
+{
+ "tag": "tp_matchformer_e2e_k1024",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 370,
+ "seconds": 30.269379356876016,
+ "latency_ms": 81.80913339696221,
+ "energy_j_per_inf": 5.869945945945946,
+ "power_from_energy_w": 71.75171893660364,
+ "energy_dyn_j_per_inf": 4.207486239173088,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 72.14154318936878,
+ "power_max_w": 73.216,
+ "sm_clock_mean": 1078.0066445182724,
+ "temp_max_c": 70,
+ "mem_used_max_mb": 1684.875,
+ "n_samples": 602,
+ "engine": "engines/engA/tp_matchformer_e2e_k1024.engine",
+ "device_memory_mb": 918.75,
+ "engine_file_mb": 43.06913375854492,
+ "kind": "engine"
+}

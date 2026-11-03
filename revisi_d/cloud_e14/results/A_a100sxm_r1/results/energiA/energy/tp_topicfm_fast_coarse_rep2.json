@@ -1,0 +1,22 @@
+{
+ "tag": "tp_topicfm_fast_coarse",
+ "rep": "2",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 7860,
+ "seconds": 30.040136751020327,
+ "latency_ms": 3.8219003500025863,
+ "energy_j_per_inf": 1.4317720101781168,
+ "power_from_energy_w": 374.62306158169406,
+ "energy_dyn_j_per_inf": 1.1585140350273573,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 374.06029815745393,
+ "power_max_w": 380.865,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 63,
+ "mem_used_max_mb": 1528.0625,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_topicfm_fast_coarse.engine",
+ "device_memory_mb": 181.103515625,
+ "engine_file_mb": 21.42911148071289,
+ "kind": "engine"
+}

@@ -1,0 +1,23 @@
+{
+ "matcher": "topicfm_fast",
+ "n_pairs": 1418,
+ "auc_engine": {
+  "auc@1": 88.62882521308131,
+  "auc@2": 94.27272894835154,
+  "auc@5": 97.66677846227431
+ },
+ "auc_torch": {
+  "auc@1": 88.72405516667767,
+  "auc@2": 94.29386450708024,
+  "auc@5": 97.6329195686995
+ },
+ "med_err_engine": 1.4843001979368498,
+ "med_err_torch": 1.495453828098149,
+ "frac_pairs_torch_over_K": 0.46403385049365303,
+ "n_torch_p50": 2984.0,
+ "n_torch_p90": 3425.0,
+ "n_torch_max": 3839,
+ "n_engine_p50": 2983.0,
+ "common_frac_med": 0.9993489583333334,
+ "pt1_within_1px_med": 1.0
+}

@@ -1,0 +1,10 @@
+{
+ "best": "ep012",
+ "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_pub_s1/ep012_val5.0983.pth",
+ "best_inliers": 537.0666666666667,
+ "last": "ep012",
+ "q15_best": "ep008",
+ "q15_best_ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_pub_s1/ep008_val5.2948.pth",
+ "q15_best_inliers": 550.1333333333333,
+ "rule": "epoch 12 tanpa seleksi pada data privat (prareg amandemen 1)"
+}

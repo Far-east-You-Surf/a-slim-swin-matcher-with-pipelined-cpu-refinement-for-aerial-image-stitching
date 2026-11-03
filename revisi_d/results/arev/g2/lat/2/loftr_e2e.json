@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/loftr_e2e.engine",
+ "latency_ms": 15.88808298110962,
+ "per_iter_median_ms": 15.925440311431885,
+ "per_iter_p95_ms": 15.938767766952514,
+ "per_iter_sd_ms": 0.014559735464804564,
+ "device_memory_size_v2_bytes": 251906048,
+ "t": "2026-11-02 23:53:15"
+}

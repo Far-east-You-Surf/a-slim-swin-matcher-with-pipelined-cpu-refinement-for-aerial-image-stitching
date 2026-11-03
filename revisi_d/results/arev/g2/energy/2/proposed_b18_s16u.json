@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/cloud_e14/engines/final/b18_s16u.engine",
+ "n": 1940,
+ "seconds": 30.067410707473755,
+ "latency_ms": 15.4986653131308,
+ "energy_j_per_inf": 4.1714386597938145,
+ "energy_dyn_j_per_inf": 3.7694877466743355,
+ "power_mean_w": 269.14825086645897,
+ "power_max_w": 271.246,
+ "idle_w": 25.934550169228945,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:26:33"
+}

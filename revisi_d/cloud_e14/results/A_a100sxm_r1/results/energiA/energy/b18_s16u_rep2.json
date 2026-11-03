@@ -1,0 +1,22 @@
+{
+ "tag": "b18_s16u",
+ "rep": "2",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 2100,
+ "seconds": 30.1306471361313,
+ "latency_ms": 14.347927207681572,
+ "energy_j_per_inf": 5.3367466666666665,
+ "power_from_energy_w": 371.95244925758243,
+ "energy_dyn_j_per_inf": 4.310899528507005,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 372.47492320534224,
+ "power_max_w": 382.581,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 63,
+ "mem_used_max_mb": 1632.0625,
+ "n_samples": 599,
+ "engine": "engines/engA/b18_s16u.engine",
+ "device_memory_mb": 207.5234375,
+ "engine_file_mb": 129.64646530151367,
+ "kind": "engine"
+}

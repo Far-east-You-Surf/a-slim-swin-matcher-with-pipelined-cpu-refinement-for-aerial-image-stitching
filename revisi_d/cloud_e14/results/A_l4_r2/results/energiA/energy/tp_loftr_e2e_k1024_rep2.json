@@ -1,0 +1,22 @@
+{
+ "tag": "tp_loftr_e2e_k1024",
+ "rep": "2",
+ "gpu": "NVIDIA L4",
+ "n": 1080,
+ "seconds": 30.277868592645973,
+ "latency_ms": 28.035063511709236,
+ "energy_j_per_inf": 2.0131259259259258,
+ "power_from_energy_w": 71.80743232791735,
+ "energy_dyn_j_per_inf": 1.4434198120757424,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.91003488372093,
+ "power_max_w": 73.043,
+ "sm_clock_mean": 1203.5132890365448,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 1034.875,
+ "n_samples": 602,
+ "engine": "engines/engA/tp_loftr_e2e_k1024.engine",
+ "device_memory_mb": 302.93017578125,
+ "engine_file_mb": 29.668041229248047,
+ "kind": "engine"
+}

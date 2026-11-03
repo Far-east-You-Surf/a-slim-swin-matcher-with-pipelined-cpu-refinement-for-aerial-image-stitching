@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/d8.engine",
+ "n": 2750,
+ "seconds": 30.00153398513794,
+ "latency_ms": 10.909648721868342,
+ "energy_j_per_inf": 2.966838909090909,
+ "energy_dyn_j_per_inf": 2.7028268245111486,
+ "power_mean_w": 271.9463279458204,
+ "power_max_w": 274.748,
+ "idle_w": 24.199870345096397,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:18:58"
+}

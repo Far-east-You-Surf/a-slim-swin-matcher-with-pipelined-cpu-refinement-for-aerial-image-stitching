@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/r480.engine",
+ "n": 5910,
+ "seconds": 30.02931022644043,
+ "latency_ms": 5.081101561157433,
+ "energy_j_per_inf": 1.0626231810490694,
+ "energy_dyn_j_per_inf": 0.9442140849723195,
+ "power_mean_w": 209.1324426916223,
+ "power_max_w": 211.015,
+ "idle_w": 23.303823915256906,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:33:27"
+}

@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_aspanformer_e2e_k1024",
+ "engine": "engines/engA/tp_aspanformer_e2e_k1024.engine",
+ "latency_ms": 19.24177646636963,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 18.835110416412352,
+ "per_iter_median_ms": 18.834832191467285,
+ "per_iter_p95_ms": 18.886788368225098,
+ "per_iter_sd_ms": 0.029817482043561796,
+ "device_memory_size_v2_bytes": 1130018816,
+ "engine_file_bytes": 173321428,
+ "t": "2026-11-02T02:51:39+0000"
+}

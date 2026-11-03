@@ -1,0 +1,22 @@
+{
+ "tag": "tp_lgfctr_coarse",
+ "rep": "2",
+ "gpu": "NVIDIA L4",
+ "n": 800,
+ "seconds": 30.03344165161252,
+ "latency_ms": 37.54180206451565,
+ "energy_j_per_inf": 2.67640125,
+ "power_from_energy_w": 71.29123011731296,
+ "energy_dyn_j_per_inf": 1.9135068070402008,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.00109547738694,
+ "power_max_w": 72.791,
+ "sm_clock_mean": 1320.2261306532664,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 1118.875,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_lgfctr_coarse.engine",
+ "device_memory_mb": 269.21533203125,
+ "engine_file_mb": 91.77059555053711,
+ "kind": "engine"
+}

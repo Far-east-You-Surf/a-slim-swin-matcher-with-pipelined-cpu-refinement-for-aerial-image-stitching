@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/topicfm_fast_e2e.engine",
+ "latency_ms": 10.234723091125488,
+ "per_iter_median_ms": 10.249839782714844,
+ "per_iter_p95_ms": 10.268332958221436,
+ "per_iter_sd_ms": 0.01046602360184348,
+ "device_memory_size_v2_bytes": 219394560,
+ "t": "2026-11-02 23:52:07"
+}

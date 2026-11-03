@@ -1,0 +1,22 @@
+{
+ "tag": "tp_lgfctr_e2e_k1024",
+ "rep": "1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 1080,
+ "seconds": 30.213138905819505,
+ "latency_ms": 27.975128616499543,
+ "energy_j_per_inf": 8.430843518518518,
+ "power_from_energy_w": 301.36924959644557,
+ "energy_dyn_j_per_inf": 6.43067964707651,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 301.54591833333336,
+ "power_max_w": 344.325,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 59,
+ "mem_used_max_mb": 2134.0625,
+ "n_samples": 600,
+ "engine": "engines/engA/tp_lgfctr_e2e_k1024.engine",
+ "device_memory_mb": 755.6328125,
+ "engine_file_mb": 106.5315055847168,
+ "kind": "engine"
+}

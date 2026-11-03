@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/matchformer_coarse.engine",
+ "latency_ms": 23.51428747177124,
+ "per_iter_median_ms": 23.526960372924805,
+ "per_iter_p95_ms": 23.553317642211915,
+ "per_iter_sd_ms": 0.0132371999347017,
+ "device_memory_size_v2_bytes": 521048064,
+ "t": "2026-11-02 23:51:57"
+}

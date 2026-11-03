@@ -1,0 +1,8 @@
+{
+ "best": "ep012",
+ "ckpt": "/home/anduras/Downloads/aerial_stitching/ckpt_archive_p16_arev_L0_s2/ep012_val4.7596.pth",
+ "best_inliers": 585.0,
+ "last": "ep012",
+ "last_inliers": 585.0,
+ "rule": "rerata inlier RANSAC q15 tertinggi di ep001-ep012 (aturan seleksi usulan)"
+}

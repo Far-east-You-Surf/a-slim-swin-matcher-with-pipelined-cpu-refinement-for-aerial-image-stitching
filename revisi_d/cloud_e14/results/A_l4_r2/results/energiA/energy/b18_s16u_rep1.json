@@ -1,0 +1,22 @@
+{
+ "tag": "b18_s16u",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 820,
+ "seconds": 30.28653275920078,
+ "latency_ms": 36.93479604780583,
+ "energy_j_per_inf": 2.651803658536585,
+ "power_from_energy_w": 71.79689458970546,
+ "energy_dyn_j_per_inf": 1.9012443058368453,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.85266832504146,
+ "power_max_w": 73.014,
+ "sm_clock_mean": 1281.5671641791046,
+ "temp_max_c": 63,
+ "mem_used_max_mb": 1060.875,
+ "n_samples": 603,
+ "engine": "engines/engA/b18_s16u.engine",
+ "device_memory_mb": 207.5234375,
+ "engine_file_mb": 129.76128768920898,
+ "kind": "engine"
+}

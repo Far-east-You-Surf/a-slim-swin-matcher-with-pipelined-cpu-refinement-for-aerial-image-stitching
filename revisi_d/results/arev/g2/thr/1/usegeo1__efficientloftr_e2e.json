@@ -1,0 +1,19 @@
+{
+ "seq": "usegeo1",
+ "cfg": "efficientloftr_e2e",
+ "n_pairs": 60,
+ "seconds": 0.7255891759996302,
+ "pairs_per_s": 82.69142096467903,
+ "steady_pairs_per_s": 82.07644048160795,
+ "first_pair_s": 0.01294251999934204,
+ "drain_s": 1.2140000762883574e-05,
+ "registered": 60,
+ "gpu_j_per_pair": 1.9046999999999998,
+ "cpu_j_per_pair": 0.5886119333333333,
+ "idle_gpu_w": 20.40644303300655,
+ "idle_cpu_w": 30.93341462026951,
+ "nvml_bus": "00000000:02:00.0",
+ "rapl": true,
+ "system_j_per_pair_gross": 2.493311933333333,
+ "system_j_per_pair_net": 1.8724511831570183
+}

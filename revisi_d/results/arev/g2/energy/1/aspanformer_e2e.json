@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/aspanformer_e2e.engine",
+ "n": 1320,
+ "seconds": 30.02538752555847,
+ "latency_ms": 22.74650570118066,
+ "energy_j_per_inf": 5.478697727272728,
+ "energy_dyn_j_per_inf": 4.925027360700603,
+ "power_mean_w": 240.85887297354665,
+ "power_max_w": 242.097,
+ "idle_w": 24.340897623822137,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:04:24"
+}

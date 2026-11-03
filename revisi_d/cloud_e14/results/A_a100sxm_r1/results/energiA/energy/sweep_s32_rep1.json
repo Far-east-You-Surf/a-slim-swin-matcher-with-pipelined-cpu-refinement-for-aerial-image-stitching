@@ -1,0 +1,22 @@
+{
+ "tag": "sweep_s32",
+ "rep": "1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 3870,
+ "seconds": 30.007342734839767,
+ "latency_ms": 7.75383533199994,
+ "energy_j_per_inf": 2.689452713178295,
+ "power_from_energy_w": 346.85450464481386,
+ "energy_dyn_j_per_inf": 2.1350695141309184,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 346.64845896147403,
+ "power_max_w": 357.297,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 62,
+ "mem_used_max_mb": 1550.0625,
+ "n_samples": 597,
+ "engine": "engines/engA/sweep_s32.engine",
+ "device_memory_mb": 207.5234375,
+ "engine_file_mb": 65.87216567993164,
+ "kind": "engine"
+}

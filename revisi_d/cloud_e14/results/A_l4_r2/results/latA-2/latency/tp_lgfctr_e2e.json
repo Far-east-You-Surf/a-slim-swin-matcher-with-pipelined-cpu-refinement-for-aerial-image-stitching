@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_lgfctr_e2e",
+ "engine": "engines/engA/tp_lgfctr_e2e.engine",
+ "latency_ms": 82.56939172744751,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 82.48184463500976,
+ "per_iter_median_ms": 82.46809768676758,
+ "per_iter_p95_ms": 83.41257095336914,
+ "per_iter_sd_ms": 0.6053057341995401,
+ "device_memory_size_v2_bytes": 1839444480,
+ "engine_file_bytes": 112808140,
+ "t": "2026-11-02T02:14:50+0000"
+}

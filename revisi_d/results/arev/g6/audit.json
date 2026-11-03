@@ -1,0 +1,22 @@
+{
+ "d1": {
+  "n": 729,
+  "passed": 711,
+  "passed_pct": 97.53086419753086,
+  "hgrid_teacher_med": 3.9037260310065247,
+  "hgrid_teacher_p90": 6.046480276329478,
+  "label_exact_pct": 59.09792139198102,
+  "label_within1_pct": 99.97918210206224,
+  "labels_per_pair_med": 1547.0
+ },
+ "d2": {
+  "n": 689,
+  "passed": 338,
+  "passed_pct": 49.056603773584904,
+  "hgrid_teacher_med": 5.30918973180325,
+  "hgrid_teacher_p90": 8.282895859008145,
+  "label_exact_pct": 58.44390263615178,
+  "label_within1_pct": 99.8337756105446,
+  "labels_per_pair_med": 1050.5
+ }
+}

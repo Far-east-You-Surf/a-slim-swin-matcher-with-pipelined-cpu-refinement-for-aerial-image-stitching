@@ -1,0 +1,11 @@
+{
+ "onnx": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/onnx/edm_e2e.onnx",
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/edm_e2e.engine",
+ "topk": 1680,
+ "ref_shape": [
+  1680,
+  11
+ ],
+ "build": "{'ok': True, 'build_s': 65.1, 'trt': '11.1.0.106', 'engine_mb': 26.822, 'n_log': 0}",
+ "ds_opt": false
+}

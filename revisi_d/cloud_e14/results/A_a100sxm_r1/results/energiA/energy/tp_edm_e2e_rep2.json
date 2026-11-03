@@ -1,0 +1,22 @@
+{
+ "tag": "tp_edm_e2e",
+ "rep": "2",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n": 9440,
+ "seconds": 30.0327838039957,
+ "latency_ms": 3.1814389622876798,
+ "energy_j_per_inf": 0.8420837923728813,
+ "power_from_energy_w": 264.68645237416825,
+ "energy_dyn_j_per_inf": 0.6146174826089762,
+ "idle_w": 71.49793299832496,
+ "power_mean_w": 263.8639648241206,
+ "power_max_w": 268.748,
+ "sm_clock_mean": 1410,
+ "temp_max_c": 57,
+ "mem_used_max_mb": 1520.0625,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_edm_e2e.engine",
+ "device_memory_mb": 215.37060546875,
+ "engine_file_mb": 23.76596450805664,
+ "kind": "engine"
+}

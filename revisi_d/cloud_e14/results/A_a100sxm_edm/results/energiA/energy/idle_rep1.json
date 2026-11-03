@@ -1,0 +1,11 @@
+{
+ "tag": "idle",
+ "rep": "1",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "power_mean_w": 73.92737531486146,
+ "power_max_w": 124.921,
+ "sm_clock_mean": 318.51385390428214,
+ "temp_max_c": 50,
+ "mem_used_max_mb": 767.25,
+ "n_samples": 397
+}

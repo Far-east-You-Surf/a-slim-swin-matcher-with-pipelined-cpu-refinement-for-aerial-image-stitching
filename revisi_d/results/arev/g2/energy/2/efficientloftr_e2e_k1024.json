@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/efficientloftr_e2e_k1024.engine",
+ "n": 3940,
+ "seconds": 30.057368755340576,
+ "latency_ms": 7.628773795771719,
+ "energy_j_per_inf": 1.853657614213198,
+ "energy_dyn_j_per_inf": 1.6575936245844853,
+ "power_mean_w": 242.9823801094477,
+ "power_max_w": 244.332,
+ "idle_w": 25.700590275383686,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:23:47"
+}

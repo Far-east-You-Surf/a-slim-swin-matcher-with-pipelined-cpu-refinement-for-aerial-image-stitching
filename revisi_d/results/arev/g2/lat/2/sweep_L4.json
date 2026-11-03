@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/L4.engine",
+ "latency_ms": 9.257211685180664,
+ "per_iter_median_ms": 9.279759883880615,
+ "per_iter_p95_ms": 9.293476772308349,
+ "per_iter_sd_ms": 0.008226658205555877,
+ "device_memory_size_v2_bytes": 213114368,
+ "t": "2026-11-02 23:53:03"
+}

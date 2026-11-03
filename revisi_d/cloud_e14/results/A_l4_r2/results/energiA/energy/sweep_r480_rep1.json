@@ -1,0 +1,22 @@
+{
+ "tag": "sweep_r480",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 3220,
+ "seconds": 30.010289296042174,
+ "latency_ms": 9.319965619888874,
+ "energy_j_per_inf": 0.6710437888198758,
+ "power_from_energy_w": 72.00067212564213,
+ "energy_dyn_j_per_inf": 0.48165090970952307,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.43239693356048,
+ "power_max_w": 72.436,
+ "sm_clock_mean": 1390.0425894378195,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 1044.0,
+ "n_samples": 587,
+ "engine": "engines/engA/sweep_r480.engine",
+ "device_memory_mb": 81.955078125,
+ "engine_file_mb": 66.0156135559082,
+ "kind": "engine"
+}

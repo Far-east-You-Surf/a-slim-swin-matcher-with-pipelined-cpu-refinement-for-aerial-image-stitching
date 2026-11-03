@@ -1,0 +1,137 @@
+{
+ "sites": [
+  {
+   "role": "train_pseudo",
+   "name": "Flight 12A",
+   "n_images": 146,
+   "gps": [
+    -8.0456,
+    110.6265
+   ],
+   "nearest_test_km": 16097
+  },
+  {
+   "role": "train_pseudo",
+   "name": "Flight 12B",
+   "n_images": 83,
+   "gps": [
+    -8.0314,
+    110.6128
+   ],
+   "nearest_test_km": 16096
+  },
+  {
+   "role": "train_pseudo",
+   "name": "Flight 13",
+   "n_images": 218,
+   "gps": [
+    -8.0496,
+    110.5963
+   ],
+   "nearest_test_km": 16099
+  },
+  {
+   "role": "train_pseudo",
+   "name": "Flight 14Rev",
+   "n_images": 200,
+   "gps": [
+    -8.0377,
+    110.6124
+   ],
+   "nearest_test_km": 16097
+  },
+  {
+   "role": "train_pseudo",
+   "name": "G6",
+   "n_images": 151,
+   "gps": [
+    -7.8948,
+    110.302
+   ],
+   "nearest_test_km": 16092
+  },
+  {
+   "role": "train_pseudo",
+   "name": "Zieg_09",
+   "n_images": 701,
+   "gps": [
+    53.0296,
+    13.3128
+   ],
+   "nearest_test_km": 6767
+  },
+  {
+   "role": "train_pseudo",
+   "name": "Zieg_10",
+   "n_images": 702,
+   "gps": [
+    53.0291,
+    13.315
+   ],
+   "nearest_test_km": 6767
+  },
+  {
+   "role": "select_q15",
+   "name": "G Uji",
+   "n_images": 39,
+   "gps": [
+    -7.8651,
+    110.3244
+   ],
+   "nearest_test_km": 16089
+  },
+  {
+   "role": "test",
+   "name": "drone_dataset_sheffield_park_1-master",
+   "n_images": 77,
+   "gps": [
+    28.0391,
+    -82.6975
+   ],
+   "nearest_test_km": null
+  },
+  {
+   "role": "test",
+   "name": "odm_data_seneca",
+   "n_images": 167,
+   "gps": [
+    41.0347,
+    -83.3057
+   ],
+   "nearest_test_km": null
+  },
+  {
+   "role": "test",
+   "name": "odm_data_bellus",
+   "n_images": 122,
+   "gps": [
+    41.2257,
+    -81.7025
+   ],
+   "nearest_test_km": null
+  },
+  {
+   "role": "public_train",
+   "name": "odm_data_monterey_road_bend",
+   "n_images": 395,
+   "gps": [
+    -31.2673,
+    151.0348
+   ],
+   "nearest_test_km": 14861
+  },
+  {
+   "role": "public_train",
+   "name": "DroneMapper_Golf9_May2016",
+   "n_images": 664,
+   "gps": [
+    38.877,
+    -107.9258
+   ],
+   "nearest_test_km": 2105
+  }
+ ],
+ "min_train_to_test_km": 2105,
+ "usegeo": "pose UseGeo dalam koordinat proyeksi lokal (X0 \u00b14,9e5, Y0 \u00b14,38e6); situs berbeda dari semua situs latih menurut uji pencarian-citra (results/kontaminasi)",
+ "private_orthos": "tanpa georeferensi; diuji dengan SIFT+RANSAC terhadap set uji (inlier maks = lantai derau)"
+}

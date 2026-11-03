@@ -1,0 +1,22 @@
+{
+ "tag": "tp_jamma_e2e",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 910,
+ "seconds": 30.060442968737334,
+ "latency_ms": 33.03345381179927,
+ "energy_j_per_inf": 2.3629967032967034,
+ "power_from_energy_w": 71.53344354360733,
+ "energy_dyn_j_per_inf": 1.6917173038293356,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.41557118927973,
+ "power_max_w": 78.368,
+ "sm_clock_mean": 1394.2462311557788,
+ "temp_max_c": 70,
+ "mem_used_max_mb": 1054.875,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_jamma_e2e.engine",
+ "device_memory_mb": 319.201171875,
+ "engine_file_mb": 45.64284133911133,
+ "kind": "engine"
+}

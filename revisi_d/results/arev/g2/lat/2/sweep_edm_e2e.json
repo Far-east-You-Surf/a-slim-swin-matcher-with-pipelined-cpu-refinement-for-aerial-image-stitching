@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/edm_e2e.engine",
+ "latency_ms": 3.2334446907043457,
+ "per_iter_median_ms": 3.2475680112838745,
+ "per_iter_p95_ms": 3.2537024140357973,
+ "per_iter_sd_ms": 0.004491211280311317,
+ "device_memory_size_v2_bytes": 155445248,
+ "t": "2026-11-02 23:53:22"
+}

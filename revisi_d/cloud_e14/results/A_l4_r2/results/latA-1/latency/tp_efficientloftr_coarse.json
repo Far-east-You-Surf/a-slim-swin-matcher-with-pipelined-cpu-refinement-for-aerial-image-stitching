@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_efficientloftr_coarse",
+ "engine": "engines/engA/tp_efficientloftr_coarse.engine",
+ "latency_ms": 11.440269947052002,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 11.410596828460694,
+ "per_iter_median_ms": 11.44931173324585,
+ "per_iter_p95_ms": 11.729195642471314,
+ "per_iter_sd_ms": 0.18374392621235688,
+ "device_memory_size_v2_bytes": 177868800,
+ "engine_file_bytes": 30855372,
+ "t": "2026-11-02T02:13:30+0000"
+}

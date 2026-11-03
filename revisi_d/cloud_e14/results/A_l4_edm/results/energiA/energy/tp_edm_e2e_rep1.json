@@ -1,0 +1,22 @@
+{
+ "tag": "tp_edm_e2e",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "n": 4170,
+ "seconds": 30.051147513091564,
+ "latency_ms": 7.206510194985986,
+ "energy_j_per_inf": 0.519211510791367,
+ "power_from_energy_w": 72.04756487441236,
+ "energy_dyn_j_per_inf": 0.38149408286866676,
+ "idle_w": 19.11014127455459,
+ "power_mean_w": 71.71527013422819,
+ "power_max_w": 74.293,
+ "sm_clock_mean": 1293.6493288590605,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 988.875,
+ "n_samples": 596,
+ "engine": "engines/engA/tp_edm_e2e.engine",
+ "device_memory_mb": 256.78173828125,
+ "engine_file_mb": 24.012157440185547,
+ "kind": "engine"
+}

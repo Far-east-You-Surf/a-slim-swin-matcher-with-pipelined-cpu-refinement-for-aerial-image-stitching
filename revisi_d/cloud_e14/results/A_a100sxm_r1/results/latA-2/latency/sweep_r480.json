@@ -1,0 +1,14 @@
+{
+ "cfg": "sweep_r480",
+ "engine": "engines/engA/sweep_r480.engine",
+ "latency_ms": 5.542383193969727,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 5.569901742935181,
+ "per_iter_median_ms": 5.568016052246094,
+ "per_iter_p95_ms": 5.583747291564942,
+ "per_iter_sd_ms": 0.006792932757522578,
+ "device_memory_size_v2_bytes": 85936128,
+ "engine_file_bytes": 69167996,
+ "t": "2026-11-02T02:50:18+0000"
+}

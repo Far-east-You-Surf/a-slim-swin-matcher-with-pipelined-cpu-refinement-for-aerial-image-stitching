@@ -1,0 +1,22 @@
+{
+ "tag": "tp_topicfm_fast_e2e_k1024",
+ "rep": "2",
+ "gpu": "NVIDIA L4",
+ "n": 1390,
+ "seconds": 30.217193162068725,
+ "latency_ms": 21.73898788638038,
+ "energy_j_per_inf": 1.5628316546762588,
+ "power_from_energy_w": 71.8907275188917,
+ "energy_dyn_j_per_inf": 1.121069348605032,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 72.21679866888519,
+ "power_max_w": 73.821,
+ "sm_clock_mean": 1178.3610648918468,
+ "temp_max_c": 70,
+ "mem_used_max_mb": 988.875,
+ "n_samples": 601,
+ "engine": "engines/engA/tp_topicfm_fast_e2e_k1024.engine",
+ "device_memory_mb": 256.10400390625,
+ "engine_file_mb": 28.59170913696289,
+ "kind": "engine"
+}

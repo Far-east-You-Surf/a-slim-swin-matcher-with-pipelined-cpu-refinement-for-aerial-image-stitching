@@ -1,0 +1,22 @@
+{
+ "tag": "tp_efficientloftr_coarse",
+ "rep": "2",
+ "gpu": "NVIDIA L4",
+ "n": 2610,
+ "seconds": 30.111197077203542,
+ "latency_ms": 11.536857117702507,
+ "energy_j_per_inf": 0.8277080459770115,
+ "power_from_energy_w": 71.74467340043165,
+ "energy_dyn_j_per_inf": 0.593265272846643,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.46671021775545,
+ "power_max_w": 72.576,
+ "sm_clock_mean": 1282.7386934673366,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 914.875,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_efficientloftr_coarse.engine",
+ "device_memory_mb": 169.62890625,
+ "engine_file_mb": 29.425975799560547,
+ "kind": "engine"
+}

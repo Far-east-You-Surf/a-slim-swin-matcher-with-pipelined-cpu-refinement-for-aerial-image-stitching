@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/aspanformer_e2e.engine",
+ "latency_ms": 22.72494077682495,
+ "per_iter_median_ms": 22.75870418548584,
+ "per_iter_p95_ms": 22.792955017089845,
+ "per_iter_sd_ms": 0.018901445870252682,
+ "device_memory_size_v2_bytes": 333801472,
+ "t": "2026-11-02 23:54:37"
+}

@@ -1,0 +1,14 @@
+{
+ "cfg": "b8_s16",
+ "engine": "engines/engA/b8_s16.engine",
+ "latency_ms": 10.48102855682373,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 10.503884801864624,
+ "per_iter_median_ms": 10.499311923980713,
+ "per_iter_p95_ms": 10.52234058380127,
+ "per_iter_sd_ms": 0.02607824443746699,
+ "device_memory_size_v2_bytes": 217604096,
+ "engine_file_bytes": 69385492,
+ "t": "2026-11-02T15:13:07+0000"
+}

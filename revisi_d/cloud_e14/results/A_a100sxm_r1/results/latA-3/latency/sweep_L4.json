@@ -1,0 +1,14 @@
+{
+ "cfg": "sweep_L4",
+ "engine": "engines/engA/sweep_L4.engine",
+ "latency_ms": 8.589708805084229,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 8.618684148788452,
+ "per_iter_median_ms": 8.614656448364258,
+ "per_iter_p95_ms": 8.621980953216553,
+ "per_iter_sd_ms": 0.03713619610064728,
+ "device_memory_size_v2_bytes": 217604096,
+ "engine_file_bytes": 65243092,
+ "t": "2026-11-02T02:51:27+0000"
+}

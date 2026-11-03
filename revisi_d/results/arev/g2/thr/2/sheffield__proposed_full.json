@@ -1,0 +1,19 @@
+{
+ "seq": "sheffield",
+ "cfg": "proposed_full",
+ "n_pairs": 60,
+ "seconds": 2.147464713001682,
+ "pairs_per_s": 27.939923593032287,
+ "steady_pairs_per_s": 30.61788514980028,
+ "first_pair_s": 0.2000873560027685,
+ "drain_s": 0.0008038039959501475,
+ "registered": 60,
+ "gpu_j_per_pair": 4.2511,
+ "cpu_j_per_pair": 2.8654557,
+ "idle_gpu_w": 16.420865092933266,
+ "idle_cpu_w": 29.825406871313934,
+ "nvml_bus": "00000000:02:00.0",
+ "rapl": true,
+ "system_j_per_pair_gross": 7.1165557,
+ "system_j_per_pair_net": 5.46135174748167
+}

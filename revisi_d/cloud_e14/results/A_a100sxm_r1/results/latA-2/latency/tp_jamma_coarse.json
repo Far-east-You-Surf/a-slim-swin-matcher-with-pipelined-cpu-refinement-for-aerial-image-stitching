@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_jamma_coarse",
+ "engine": "engines/engA/tp_jamma_coarse.engine",
+ "latency_ms": 12.630658149719238,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 10.663776350021362,
+ "per_iter_median_ms": 10.670048236846924,
+ "per_iter_p95_ms": 10.703779125213623,
+ "per_iter_sd_ms": 0.02995558653681811,
+ "device_memory_size_v2_bytes": 311359488,
+ "engine_file_bytes": 39503084,
+ "t": "2026-11-02T02:49:21+0000"
+}

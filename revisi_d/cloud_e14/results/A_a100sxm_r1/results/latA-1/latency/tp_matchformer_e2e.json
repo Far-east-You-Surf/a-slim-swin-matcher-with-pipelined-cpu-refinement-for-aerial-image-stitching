@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_matchformer_e2e",
+ "engine": "engines/engA/tp_matchformer_e2e.engine",
+ "latency_ms": 19.97366189956665,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 19.947165775299073,
+ "per_iter_median_ms": 19.931727409362793,
+ "per_iter_p95_ms": 19.97877616882324,
+ "per_iter_sd_ms": 0.12592229489866683,
+ "device_memory_size_v2_bytes": 963379200,
+ "engine_file_bytes": 45124612,
+ "t": "2026-11-02T02:47:06+0000"
+}

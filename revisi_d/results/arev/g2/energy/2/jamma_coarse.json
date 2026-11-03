@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/jamma_coarse.engine",
+ "n": 2820,
+ "seconds": 30.022915840148926,
+ "latency_ms": 10.646424056790398,
+ "energy_j_per_inf": 1.8892843971631206,
+ "energy_dyn_j_per_inf": 1.6206129420636082,
+ "power_mean_w": 177.4571806538286,
+ "power_max_w": 178.5,
+ "idle_w": 25.235840096764797,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:27:14"
+}

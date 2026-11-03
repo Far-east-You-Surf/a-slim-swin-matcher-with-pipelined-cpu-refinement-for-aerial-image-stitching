@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_jamma_e2e",
+ "engine": "engines/engA/tp_jamma_e2e.engine",
+ "latency_ms": 33.03572654724121,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 32.7879114151001,
+ "per_iter_median_ms": 32.8077449798584,
+ "per_iter_p95_ms": 33.1461217880249,
+ "per_iter_sd_ms": 0.23602825063273525,
+ "device_memory_size_v2_bytes": 334706688,
+ "engine_file_bytes": 47859988,
+ "t": "2026-11-02T02:16:17+0000"
+}

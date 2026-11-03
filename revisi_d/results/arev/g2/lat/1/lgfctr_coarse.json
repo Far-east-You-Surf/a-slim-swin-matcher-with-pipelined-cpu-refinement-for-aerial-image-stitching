@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/lgfctr_coarse.engine",
+ "latency_ms": 15.655910968780516,
+ "per_iter_median_ms": 15.706736087799072,
+ "per_iter_p95_ms": 15.726078844070434,
+ "per_iter_sd_ms": 0.012794696956625396,
+ "device_memory_size_v2_bytes": 155464704,
+ "t": "2026-11-02 23:51:52"
+}

@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_loftr_e2e_k1024",
+ "engine": "engines/engA/tp_loftr_e2e_k1024.engine",
+ "latency_ms": 9.277071952819824,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 9.295574035644531,
+ "per_iter_median_ms": 9.292687892913818,
+ "per_iter_p95_ms": 9.30286865234375,
+ "per_iter_sd_ms": 0.018121346457760264,
+ "device_memory_size_v2_bytes": 317645312,
+ "engine_file_bytes": 31241668,
+ "t": "2026-11-02T02:52:21+0000"
+}

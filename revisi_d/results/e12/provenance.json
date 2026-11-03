@@ -1,0 +1,77 @@
+{
+  "efficientloftr": {
+    "repo": "https://github.com/zju3dv/EfficientLoFTR",
+    "dir": "thirdparty/EfficientLoFTR",
+    "weight": "thirdparty/weights/eloftr/weights/eloftr_outdoor.ckpt",
+    "weight_url": "https://drive.google.com/drive/folders/1GOw6iVqsB-f1vmG6rNmdCcgwfB4VZ7_Q (file id 1jFy2JbMKlIp82541TakhQPaoyB5qDeic, eloftr_outdoor.ckpt, model 'full')",
+    "license": "Project Registration License (PRL) v1.0 (sejak 2026-09-15; sebelumnya Apache-2.0). Riset/edukasi/publikasi bebas tanpa registrasi; 'Project Use' oleh organisasi wajib registrasi. Bobot HF ber-tag apache-2.0.",
+    "commit": "07e9c1401e71e9c556b1fda9d86d060af36ba176",
+    "weight_sha256": "0af6291141c736e75e94b7f8aae4399b77c7731b3f08758212b2cfe370188878",
+    "weight_bytes": 192797577,
+    "retrieved": "2026-10-08"
+  },
+  "lgfctr": {
+    "repo": "https://github.com/zwh0527/LGFCTR",
+    "dir": "thirdparty/LGFCTR",
+    "weight": "thirdparty/weights/lgfctr/LGFCTR_outdoor.ckpt",
+    "weight_url": "https://drive.google.com/file/d/13eVWMgWgEZn0kdQIlZ2DUfcOj8_FAQij",
+    "license": "Apache-2.0",
+    "commit": "29ae212fa07c87421e44414d45fea7d191ed0c40",
+    "weight_sha256": "f88593ed38cecc917104d7e630ce3f25bc65e81e2e5fc5055dd393044e4213d1",
+    "weight_bytes": 197341551,
+    "retrieved": "2026-10-08"
+  },
+  "swinmatcher_tgrs": {
+    "repo": "https://github.com/LotrL/SwinMatcher",
+    "dir": "thirdparty/SwinMatcher",
+    "weight": "thirdparty/weights/swinmatcher/swinmatcher_512.ckpt",
+    "weight_url": "https://drive.google.com/drive/folders/1R4u8TBHzcv8dM1vTRyKwFxS7dCeAd31q (file id 1bu0cortPcmKThskz8AyeugjyCf4pR6UE)",
+    "license": "Apache-2.0",
+    "note": "bobot dilatih pada data cross-modal RS milik penulis (bukan MegaDepth)",
+    "commit": "9dc1de0cddafa4f23eb6cbec7fe3fe3da0fda6d3",
+    "weight_sha256": "c27a41fb3905fe1a2f032a95869590b979b4e54a7b54569a322415cb5f329b92",
+    "weight_bytes": 356101119,
+    "retrieved": "2026-10-08"
+  },
+  "matchformer": {
+    "repo": "https://github.com/jamycheung/MatchFormer",
+    "dir": "thirdparty/MatchFormer",
+    "weight": "thirdparty/weights/matchformer/outdoor-large-LA.ckpt",
+    "weight_url": "https://drive.google.com/drive/folders/1JSnoQMfr32eoIXwJ1gpwUaPKv4kjdqJ7 (file id 1Ii-z3dwNwGaxoeFVSE44DqHdMhubYbQf)",
+    "license": "Apache-2.0",
+    "note": "folder juga berisi outdoor-lite-SEA/indoor-*; hanya outdoor-large-LA dipakai (dimuat strict, cocok dgn backbone largela)",
+    "commit": "1b2da5c8ecb0c1fc918f8d5d64fcce1beeab2ba2",
+    "weight_sha256": "634002dc7163e45343ede54f0fd918d559f37f52667955ed7bc126375ee07074",
+    "weight_bytes": 81157559,
+    "retrieved": "2026-10-08"
+  },
+  "aspanformer": {
+    "repo": "https://github.com/apple/ml-aspanformer",
+    "dir": "thirdparty/ml-aspanformer",
+    "weight": "thirdparty/weights/aspanformer/weights/outdoor.ckpt",
+    "weight_url": "https://drive.google.com/file/d/1eavM9dTkw9nbc-JqlVVfGPU5UvTTfc6k (weights_aspanformer.tar -> weights/outdoor.ckpt)",
+    "archive_sha256": "fdcef2d135408bacab31f70fe569bbf9f972a14bf8b4e7983a4862a7e54358a4",
+    "license": "Apple Sample Code License (non-komersial; riset diperbolehkan)",
+    "commit": "ada1119a5b520b2dff94387b57c5e7818ad80b2f",
+    "weight_sha256": "b1041cad1f484b85b86df8aadc3e7b0ea3060ba2a412550b2f1fc58f501689d1",
+    "weight_bytes": 63125007,
+    "retrieved": "2026-10-08"
+  },
+  "quadtree": {
+    "repo": "https://github.com/Tangshitao/QuadTreeAttention",
+    "dir": "thirdparty/QuadTreeAttention",
+    "weight": null,
+    "weight_url": "https://github.com/Tangshitao/QuadTreeAttention/releases/download/QuadTreeAttention_feature_match/outdoor.ckpt (TIDAK diunduh; baris analitis)",
+    "license": "MIT (dinyatakan di README; tidak ada berkas LICENSE di root)",
+    "commit": "549a1efa167308bf444472032d7a90837ea73f69",
+    "retrieved": "2026-10-08"
+  },
+  "_pydeps": {
+    "dir": "thirdparty/pydeps",
+    "packages": [
+      "joblib 1.6.0",
+      "cloudpickle"
+    ],
+    "reason": "EfficientLoFTR/MatchFormer src/utils/misc.py mengimpor joblib; joblib 1.6 butuh cloudpickle. Dipasang --target, tidak menyentuh venv."
+  }
+}

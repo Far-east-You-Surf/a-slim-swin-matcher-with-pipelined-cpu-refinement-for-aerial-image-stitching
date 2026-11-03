@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/r480.engine",
+ "latency_ms": 5.074527263641357,
+ "per_iter_median_ms": 5.098351955413818,
+ "per_iter_p95_ms": 5.110007929801941,
+ "per_iter_sd_ms": 0.00604536782264414,
+ "device_memory_size_v2_bytes": 85185536,
+ "t": "2026-11-02 23:54:07"
+}

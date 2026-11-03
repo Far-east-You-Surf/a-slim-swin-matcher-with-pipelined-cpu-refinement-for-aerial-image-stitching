@@ -1,0 +1,19 @@
+{
+ "seq": "usegeo1",
+ "cfg": "topicfm_fast_e2e",
+ "n_pairs": 60,
+ "seconds": 0.9324232779981685,
+ "pairs_per_s": 64.34845784718586,
+ "steady_pairs_per_s": 64.15168782899259,
+ "first_pair_s": 0.01709720699727768,
+ "drain_s": 1.2299999070819467e-05,
+ "registered": 60,
+ "gpu_j_per_pair": 1.9553333333333331,
+ "cpu_j_per_pair": 0.7643136666666667,
+ "idle_gpu_w": 21.504328807354007,
+ "idle_cpu_w": 30.88076304348116,
+ "nvml_bus": "00000000:02:00.0",
+ "rapl": true,
+ "system_j_per_pair_gross": 2.7196469999999997,
+ "system_j_per_pair_net": 1.9055623489701519
+}

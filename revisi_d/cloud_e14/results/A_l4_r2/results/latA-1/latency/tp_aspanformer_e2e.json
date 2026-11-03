@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_aspanformer_e2e",
+ "engine": "engines/engA/tp_aspanformer_e2e.engine",
+ "latency_ms": 59.99411106109619,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 59.930397605896,
+ "per_iter_median_ms": 59.91996765136719,
+ "per_iter_p95_ms": 60.573195457458496,
+ "per_iter_sd_ms": 0.4159867837925669,
+ "device_memory_size_v2_bytes": 1130018816,
+ "engine_file_bytes": 173336644,
+ "t": "2026-11-02T02:10:45+0000"
+}

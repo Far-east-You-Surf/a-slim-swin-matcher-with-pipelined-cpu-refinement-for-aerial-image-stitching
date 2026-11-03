@@ -1,0 +1,11 @@
+{
+ "tag": "idle",
+ "rep": "1",
+ "gpu": "NVIDIA L4",
+ "power_mean_w": 24.001683417085427,
+ "power_max_w": 65.228,
+ "sm_clock_mean": 414.49748743718595,
+ "temp_max_c": 66,
+ "mem_used_max_mb": 468.875,
+ "n_samples": 398
+}

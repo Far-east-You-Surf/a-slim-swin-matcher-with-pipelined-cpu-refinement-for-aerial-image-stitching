@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_topicfm_fast_coarse",
+ "engine": "engines/engA/tp_topicfm_fast_coarse.engine",
+ "latency_ms": 11.151552200317383,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 11.152680330276489,
+ "per_iter_median_ms": 11.124767780303955,
+ "per_iter_p95_ms": 11.600350713729858,
+ "per_iter_sd_ms": 0.21939090745920206,
+ "device_memory_size_v2_bytes": 189900800,
+ "engine_file_bytes": 22432716,
+ "t": "2026-11-02T02:20:48+0000"
+}

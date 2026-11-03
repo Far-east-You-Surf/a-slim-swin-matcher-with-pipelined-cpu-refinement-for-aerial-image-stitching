@@ -1,0 +1,22 @@
+{
+ "tag": "tp_lgfctr_e2e_k1024",
+ "rep": "2",
+ "gpu": "NVIDIA L4",
+ "n": 460,
+ "seconds": 30.029846034944057,
+ "latency_ms": 65.28227398900881,
+ "energy_j_per_inf": 4.6677347826086955,
+ "power_from_energy_w": 71.50079948799844,
+ "energy_dyn_j_per_inf": 3.3411206801634665,
+ "idle_w": 20.321199329983248,
+ "power_mean_w": 71.64136013400335,
+ "power_max_w": 73.703,
+ "sm_clock_mean": 1252.964824120603,
+ "temp_max_c": 71,
+ "mem_used_max_mb": 1560.875,
+ "n_samples": 597,
+ "engine": "engines/engA/tp_lgfctr_e2e_k1024.engine",
+ "device_memory_mb": 755.6328125,
+ "engine_file_mb": 106.74100112915039,
+ "kind": "engine"
+}

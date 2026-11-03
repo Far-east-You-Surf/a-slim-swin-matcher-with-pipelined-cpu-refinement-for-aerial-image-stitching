@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_topicfm_fast_e2e",
+ "engine": "engines/engA/tp_topicfm_fast_e2e.engine",
+ "latency_ms": 8.364827632904053,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 8.369985914230346,
+ "per_iter_median_ms": 8.364975929260254,
+ "per_iter_p95_ms": 8.379553937911988,
+ "per_iter_sd_ms": 0.02645312921738187,
+ "device_memory_size_v2_bytes": 313395712,
+ "engine_file_bytes": 37039124,
+ "t": "2026-11-02T02:46:50+0000"
+}

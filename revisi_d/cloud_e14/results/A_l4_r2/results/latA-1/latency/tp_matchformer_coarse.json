@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_matchformer_coarse",
+ "engine": "engines/engA/tp_matchformer_coarse.engine",
+ "latency_ms": 70.42407751083374,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 70.553779296875,
+ "per_iter_median_ms": 70.5814094543457,
+ "per_iter_p95_ms": 71.2514434814453,
+ "per_iter_sd_ms": 0.468233251185618,
+ "device_memory_size_v2_bytes": 909312000,
+ "engine_file_bytes": 41175484,
+ "t": "2026-11-02T02:11:00+0000"
+}

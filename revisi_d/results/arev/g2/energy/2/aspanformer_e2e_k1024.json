@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/aspanformer_e2e_k1024.engine",
+ "n": 1590,
+ "seconds": 30.101197719573975,
+ "latency_ms": 18.93157089281382,
+ "energy_j_per_inf": 4.522719496855346,
+ "energy_dyn_j_per_inf": 4.014987107348838,
+ "power_mean_w": 238.8982680022666,
+ "power_max_w": 241.104,
+ "idle_w": 26.819348081634203,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:30:41"
+}

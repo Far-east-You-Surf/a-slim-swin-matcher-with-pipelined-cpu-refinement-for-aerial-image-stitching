@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/matchformer_e2e_k1024.engine",
+ "n": 1130,
+ "seconds": 30.24264669418335,
+ "latency_ms": 26.763404154144556,
+ "energy_j_per_inf": 6.87348761061947,
+ "energy_dyn_j_per_inf": 6.209504472516618,
+ "power_mean_w": 256.82411590959913,
+ "power_max_w": 258.648,
+ "idle_w": 24.80936783223177,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:02:20"
+}

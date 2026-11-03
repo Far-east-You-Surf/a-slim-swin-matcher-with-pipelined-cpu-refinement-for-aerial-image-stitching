@@ -1,0 +1,9 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/jamma_coarse.engine",
+ "latency_ms": 10.618724822998047,
+ "per_iter_median_ms": 10.913824081420898,
+ "per_iter_p95_ms": 10.963625955581666,
+ "per_iter_sd_ms": 0.0219981971137125,
+ "device_memory_size_v2_bytes": 267899904,
+ "t": "2026-11-02 23:55:00"
+}

@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/p2c/engines/lgfctr_coarse.engine",
+ "n": 1920,
+ "seconds": 30.088866472244263,
+ "latency_ms": 15.671284620960554,
+ "energy_j_per_inf": 3.3337057291666667,
+ "energy_dyn_j_per_inf": 2.927166356879184,
+ "power_mean_w": 212.72702332952275,
+ "power_max_w": 214.171,
+ "idle_w": 25.941674988388048,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:06:28"
+}

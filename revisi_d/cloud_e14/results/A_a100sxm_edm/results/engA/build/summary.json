@@ -1,0 +1,16 @@
+{
+  "b8_s16": {
+    "ok": true,
+    "build_s": 68.9,
+    "trt": "11.1.0.106",
+    "engine_mb": 66.171,
+    "n_log": 0
+  },
+  "tp_edm_e2e": {
+    "ok": true,
+    "build_s": 55.6,
+    "trt": "11.1.0.106",
+    "engine_mb": 23.8,
+    "n_log": 0
+  }
+}

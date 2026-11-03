@@ -1,0 +1,81 @@
+# Configuration for Aerial Image Stitching (FP8/FP4 Reduction)
+
+model:
+  backbone: "swin_b"              # Base Feature Extractor (Swin-Base)
+  d_model: 128                    # Dimension of the Transformer
+  nhead: 8                        # Number of heads in MultiheadAttention
+  num_layers: 8                   # Number of LoFTR-style Transformer Blocks
+  target_size: [768, 1024]        # Internal downscaling (H, W)
+  precision: "fp8"                # precision mode: fp32, fp16, bf16, fp8, fp4
+
+training:
+  batch_size: 2                   # Dipertahankan -- GPU sudah 97% util di batch_size=2 (diverifikasi 2026-07-10), menaikkan ini cuma mengubah dinamika training tanpa manfaat throughput jelas
+  target_effective_batch_size: 16 # accumulation_steps diturunkan dari sini (=target//batch_size), bukan hardcode -- spy konsisten kalau batch_size diubah nanti
+  epochs: 200
+  # Dinaikkan 10->25 (2026-07-14): run pertama early-stop di epoch 17 (val
+  # loss terbaik epoch 7 tak terkalahkan 10 epoch). Val set cuma 2 file (400
+  # crop virtual/epoch) -- val loss noisy epoch-ke-epoch (2.7-3.6), jadi
+  # "stagnan 10 epoch" belum tentu model beneran plateau. Longgarkan dulu
+  # sblm menyimpulkan modelnya sudah final.
+  early_stopping_patience: 25
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-4
+  temperature: 0.1                # Temperature for dual-softmax matching
+  device: "cuda"
+  # Direvisi 2026-07-13: kembali ke SATU proses training tunggal
+  # (train_fp16_twins_loftr.py), tidak lagi 2 proses berbarengan spt
+  # 2026-07-10 -- jadi seluruh 16 core / 32.6GB VRAM / 91GB RAM bisa
+  # dipakai 1 proses ini sendirian. num_workers dinaikkan 6->12 (sisakan
+  # 4 core utk proses utama+OS); lihat dataset.max_cache_images utk
+  # perhitungan RAM yg menyertainya.
+  num_workers: 12
+  # Sekarang 1 proses sendirian pegang GPU penuh -> naikkan ke 90% VRAM
+  # (RTX 5090 32.6GB), sisa 10% utk overhead context CUDA.
+  gpu_memory_fraction: 0.9
+
+dataset:
+  # Diperbarui 2026-07-09/10: dataset baru di drive eksternal (34 file, 21.12
+  # gigapixel training vs 5.1GP lama). Lihat PROJECT_PROGRESS_LOG.md dan
+  # memory proyek utk analisis komposisi/duplikasi lokasi.
+  train_path: "/home/anduras/Data_Toshiba/Data Disertasi/Data Latih Orthomosaic"
+  val_path: "/home/anduras/Data_Toshiba/Data Disertasi/Data Validasi Orthomosaic"
+  # Pacarejo-15/16 diindikasikan overlap situs dgn Pacarejo-1..11 (training) +
+  # raw Flight 12A/12B/13/14Rev (GPS cocok, region Gunungkidul/Pacarejo).
+  # Dipindah SECARA LOGIS ke training (bukan dipindah fisik di drive) --
+  # dataset loader membaca daftar ini utk exclude dari val & extra utk train.
+  val_exclude: ["Pacarejo-15.jpg", "Pacarejo-16.jpg"]
+  val_epoch_size: 400             # Ukuran virtual epoch val (crop+homografi acak spt training, tapi dari situs terpisah)
+  pre_stitch_path: "/home/anduras/Data_Toshiba/Data Disertasi/Data Latih Pre-Sticth"
+  rotation_range: [-20, 20]       # Rotation variance in degrees
+  # Direvisi 2026-07-13: kembali ke 2 (dari 1) krn skenario 2-proses-berbarengan
+  # 2026-07-10 sudah tidak berlaku -- sekarang cuma train_fp16_twins_loftr.py
+  # sendirian. Nilai 2 ini SUDAH TERBUKTI aman utk 1 proses (num_workers=6,
+  # cache=2 -> peak RAM nyata 35.9GB @ 12 slot worker x cache, ~3GB/slot).
+  # Dgn num_workers=12 (training.num_workers) x cache=2 = 24 slot -> estimasi
+  # ~72GB (79% dari 91GB) -- SENGAJA di bawah 90GB penuh krn catatan
+  # 2026-07-10 sendiri menunjukkan volatilitas nyata melebihi estimasi linear
+  # (78GB teramati vs target 72.8GB saat itu) -- ~12GB margin di sini utk
+  # OS + proses utama + pseudo_gt cache, bukan kelalaian thd target 90%.
+  max_cache_images: 2
+
+finematch:
+  fine_loss_weight: 1.0           # Bobot loss regresi sub-pixel (Model B, train_fp16_finematch.py)
+
+pseudo_gt:
+  # Data mentah (belum di-stitch) dipakai sbg TAMBAHAN training, bukan pengganti
+  # data ortho sintetis (label ortho exact, pseudo-GT dari LoFTR lebih berisik --
+  # lihat PROJECT_PROGRESS_LOG.md §14.4-14.5). Rasio kecil by design.
+  enabled: true
+  mix_ratio: 0.25                 # Target proporsi sampel per epoch yang berasal dari pseudo-GT
+  min_raw_matches: 50             # Buang pasangan dgn match mentah LoFTR < N sebelum RANSAC
+  # Dikalibrasi 2026-07-10 dari sampel nyata (bkn tebakan): pasangan foto asli
+  # (parallax 3D asli, bukan warp planar sintetis) punya inlier ratio jauh lebih
+  # rendah scr wajar drpd data ortho. Sampel diagnostik 1 pasangan/folder:
+  # Flight12A=0.122 Flight12B=0.969 Flight13=0.411 Flight14Rev=0.908 G6=0.026
+  # Zieg09=0.516 Zieg10=0.027 -- ambang 0.75 (tebakan awal dari log lama)
+  # akan membuang mayoritas data valid. 0.4 dipilih supaya tetap membuang
+  # frame yg jelas nyaris tak overlap (G6/Zieg10 pertama) tanpa membuang
+  # pasangan overlap wajar dgn sedikit parallax (Flight13/Zieg09).
+  min_inlier_ratio: 0.4
+  ransac_reproj_threshold: 5.0
+  cache_dir: "pseudo_gt_cache"    # Relatif thd direktori proyek ini

@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_topicfm_fast_e2e_k1024",
+ "engine": "engines/engA/tp_topicfm_fast_e2e_k1024.engine",
+ "latency_ms": 21.513667106628418,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 21.548979568481446,
+ "per_iter_median_ms": 21.666831970214844,
+ "per_iter_p95_ms": 22.251853275299073,
+ "per_iter_sd_ms": 0.5309784683596942,
+ "device_memory_size_v2_bytes": 268544512,
+ "engine_file_bytes": 29980580,
+ "t": "2026-11-02T02:12:19+0000"
+}

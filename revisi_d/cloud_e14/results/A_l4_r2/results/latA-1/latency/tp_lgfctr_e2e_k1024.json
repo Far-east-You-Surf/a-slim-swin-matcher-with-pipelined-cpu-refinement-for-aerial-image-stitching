@@ -1,0 +1,14 @@
+{
+ "cfg": "tp_lgfctr_e2e_k1024",
+ "engine": "engines/engA/tp_lgfctr_e2e_k1024.engine",
+ "latency_ms": 64.80632781982422,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 64.69806049346924,
+ "per_iter_median_ms": 64.62707138061523,
+ "per_iter_p95_ms": 65.74628715515136,
+ "per_iter_sd_ms": 0.7272374555218661,
+ "device_memory_size_v2_bytes": 792338432,
+ "engine_file_bytes": 111926052,
+ "t": "2026-11-02T02:12:45+0000"
+}

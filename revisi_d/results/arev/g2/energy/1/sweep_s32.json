@@ -1,0 +1,13 @@
+{
+ "engine": "/home/anduras/Downloads/aerial_stitching/revisi_d/results/arev/g2/engines/s32.engine",
+ "n": 3790,
+ "seconds": 30.077057361602783,
+ "latency_ms": 7.935899040000735,
+ "energy_j_per_inf": 2.0273445910290238,
+ "energy_dyn_j_per_inf": 1.8160601354717942,
+ "power_mean_w": 255.46501799106005,
+ "power_max_w": 257.931,
+ "idle_w": 26.623884010148654,
+ "nvml_bus": "00000000:02:00.0",
+ "t": "2026-11-03 00:05:05"
+}

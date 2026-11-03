@@ -1,0 +1,14 @@
+{
+ "cfg": "sweep_d8",
+ "engine": "engines/engA/sweep_d8.engine",
+ "latency_ms": 27.47912883758545,
+ "n_warmup": 10,
+ "n_iter": 100,
+ "per_iter_mean_ms": 27.524790058135988,
+ "per_iter_median_ms": 27.53927993774414,
+ "per_iter_p95_ms": 27.931367206573487,
+ "per_iter_sd_ms": 0.2500427534987095,
+ "device_memory_size_v2_bytes": 217604096,
+ "engine_file_bytes": 69363172,
+ "t": "2026-11-02T02:17:44+0000"
+}
