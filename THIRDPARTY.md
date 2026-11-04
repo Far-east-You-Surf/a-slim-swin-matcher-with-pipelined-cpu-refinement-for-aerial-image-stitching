@@ -18,7 +18,7 @@ The ten published matchers are used exactly as released: their repositories at t
 
 Notes
 
-* Each matcher runs in its own process: EfficientLoFTR, LGFCTR, ASpanFormer, TopicFM, JamMa, and EDM all use a top-level package named `src`, and MatchFormer a package named `model` (see the docstring of `revisi_d/scripts/tp_matchers.py`); EDM is registered by `revisi_d/scripts/arev_tp_extra.py` (outdoor configuration, 1680 coarse candidates at 480×640).
+* Each matcher runs in its own process: EfficientLoFTR, LGFCTR, ASpanFormer, TopicFM, JamMa, and EDM all use a top-level package named `src`, and MatchFormer a package named `model` (see the docstring of `revisi_d/scripts/tp_matchers.py`); EDM is registered by `revisi_d/scripts/arev_tp_extra.py` (outdoor configuration, 1680 coarse candidates at 640×480).
 * All matches are used: the evaluation sets `STITCH_CAP` to 10^9, so no matcher is limited to a fixed number of matches.
 * The wrappers that load the models and export the coarse path and the complete matcher to ONNX are `revisi_d/scripts/p2c_<matcher>.py` with `p2c_common.py`; TensorRT engines are built from those ONNX files by `revisi_d/cloud_e14/scripts/build_engines.py`.
 

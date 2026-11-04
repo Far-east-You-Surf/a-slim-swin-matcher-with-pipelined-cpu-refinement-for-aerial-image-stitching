@@ -43,7 +43,7 @@ from environment variables: `AERIAL_ROOT` (repository root, default: derived fro
    `python revisi_d/scripts/arev_cache.py all --workers 4`.
 2. Train a variant, for example the proposal with seed 2:
    `python revisi_d/scripts/arev_train.py --tag d8_s2 --seed 2`; the 18-block backbone adds `--blocks 18`, the
-   variant without attention body `--layers 0`, the /32 grid `--stride 32`, the 480×640 internal input `--res 480x640`,
+   variant without attention body `--layers 0`, the /32 grid `--stride 32`, the 640×480 internal input `--res 480x640` (height×width),
    initialisation from ImageNet alone `--init clean`, and the reproduction on public data
    `--init clean --train-root ... --val-root ... --pseudo ...` (see `docs/preregistration.md`, amendments 1 and 2).
    A given seed fixes the order and content of the training samples, so variants with the same seed see the same stream.
