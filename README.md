@@ -56,7 +56,7 @@ from environment variables: `AERIAL_ROOT` (repository root, default: derived fro
 
 ## Licence
 
-No licence has been chosen yet; until the authors add one, all rights are reserved. Third-party code and weights keep their own licences (THIRDPARTY.md).
+The code and documentation in this repository, including release v1.0, are released under the MIT License (LICENSE). The trained weights in release v1.0 are released under the same licence, except the MatchFormer and LGFCTR weights retrained on the aerial stream (`tp_*`), which are derived from Apache-2.0 weights and remain under the Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0). The reproduction on public data (`pub_s1_*`) was trained on OpenAerialMap orthomosaics, part of which are licensed CC BY-NC 4.0 (DATA.md). Third-party code and weights keep their own licences (THIRDPARTY.md).
 
 ## Citation
 
